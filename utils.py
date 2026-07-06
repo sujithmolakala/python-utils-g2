@@ -31,7 +31,7 @@ at index "start"
 """
 def findLargest(lst, start):
     max = lst[start]
-    idx = start
+    idx = start + 1
     for i in range(start, len(lst)):
         if lst[i] > max:
             max = lst[i]
