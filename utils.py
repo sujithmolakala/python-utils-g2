@@ -74,7 +74,7 @@ def search(lst, target):
             found = True
         elif (lst[mid] > target):
             high = mid - 1
-        elif (lst[mid] < target):
+        else:
             low = mid + 1
     return found
 
